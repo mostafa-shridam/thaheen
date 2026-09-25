@@ -266,8 +266,11 @@ and looking at them, not by guessing timestamps — which is also how I caught t
 ## Deliverables
 
 - **Repository:** this repo, public on GitHub.
-- **Screen recording:** a 2–3 minute walkthrough is linked in the submission email.
-- **APK:** not committed — `/build/` is git-ignored. Build it in one step:
+- **Screen recording and APK:**
+  [Google Drive folder](https://drive.google.com/drive/folders/1nEb2ysm9NwopNAb0Vza0qJNWWhpOXIcr?usp=sharing)
+  — a 2:35 walkthrough and a release-build APK (debug-key signed).
+- **Building the APK yourself:** it is not committed, since `/build/` is git-ignored.
+  One step:
 
 ```bash
 flutter build apk --release
