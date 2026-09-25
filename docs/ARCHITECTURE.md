@@ -39,8 +39,9 @@ lib/
         │                      # LessonProgressModel, LessonStatus — and the business rules
         └── presentation/
             ├── providers/     # Riverpod @riverpod Notifiers / AsyncNotifiers
-            ├── pages/       # CoursesPage, CourseDetailsPage, LessonPlayerPage
-            └── widgets/       # CourseCard, LessonTile, RTLVideoControls, ProgressHeader
+            ├── pages/         # CoursesPage, CourseDetailsPage, LessonPlayerPage —
+            │                  # one screen each, no sub-widgets
+            └── widgets/       # every piece those screens are built from
 ```
 
 ## 📐 Layer Rules & Guidelines
@@ -87,6 +88,15 @@ is what keeps the rules impossible to apply inconsistently.
   `docs/DESIGN_SYSTEM.md`. Widgets read breakpoints; they do not compute screen math.
 - Loading, empty and error are handled explicitly at every `AsyncValue`, never left to an
   unguarded `.value`.
+- **A page file holds its screen and nothing else.** A page resolves providers, owns navigation,
+  and picks which widget renders each state — every one of those widgets lives in its own file
+  under `widgets/`, public and named. This keeps each screen under ~100 lines and makes its parts
+  findable and reusable. The one class a page may still declare is its own `State`.
+- **No function widgets.** A `Widget _buildX()` helper returns a subtree that has no element of
+  its own, so it cannot be `const`, rebuilds with its whole parent, and is invisible in the widget
+  inspector. Write a widget class instead.
+- A widget file may keep a *private* leaf widget (for example `_FooterNote` inside
+  `lesson_footer.dart`) when it is a detail of that one component and has no meaning outside it.
 
 ### Core (`core/`)
 

@@ -265,5 +265,11 @@ and looking at them, not by guessing timestamps — which is also how I caught t
 
 ## Deliverables
 
-- **APK:** `build/app/outputs/flutter-apk/app-release.apk` (debug-key signed)
-- **Screen recording:** to be attached with the submission
+- **Repository:** this repo, public on GitHub.
+- **Screen recording:** a 2–3 minute walkthrough is linked in the submission email.
+- **APK:** not committed — `/build/` is git-ignored. Build it in one step:
+
+```bash
+flutter build apk --release
+# -> build/app/outputs/flutter-apk/app-release.apk  (~73 MB, debug-key signed)
+```
