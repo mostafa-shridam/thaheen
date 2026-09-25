@@ -13,21 +13,21 @@
           "lessons": [
             {
               "id": "anatomy-101-l1",
-              "title": "تركيب العظام ووظائفها",
-              "durationSec": 67,
-              "video": "assets/videos/lesson_1.mp4"
+              "title": "وظائف الهيكل العظمي",
+              "durationSec": 95,
+              "video": "assets/videos/skeletal_system.mp4"
             },
             {
               "id": "anatomy-101-l2",
-              "title": "المفاصل والغضاريف",
-              "durationSec": 71,
-              "video": "assets/videos/lesson_2.mp4"
+              "title": "تركيب العظم والسمحاق",
+              "durationSec": 95,
+              "video": "assets/videos/bone_structure.mp4"
             },
             {
               "id": "anatomy-101-l3",
-              "title": "العمود الفقري",
-              "durationSec": 76,
-              "video": "assets/videos/lesson_3.mp4"
+              "title": "القفص الصدري والجمجمة",
+              "durationSec": 95,
+              "video": "assets/videos/skeletal_system.mp4"
             }
           ]
         },
@@ -37,15 +37,15 @@
           "lessons": [
             {
               "id": "anatomy-101-l4",
-              "title": "أنواع العضلات",
-              "durationSec": 82,
-              "video": "assets/videos/lesson_4.mp4"
+              "title": "الألياف العضلية والأوتار",
+              "durationSec": 95,
+              "video": "assets/videos/muscle_fibers.mp4"
             },
             {
               "id": "anatomy-101-l5",
               "title": "آلية الانقباض العضلي",
-              "durationSec": 96,
-              "video": "assets/videos/lesson_5.mp4"
+              "durationSec": 95,
+              "video": "assets/videos/muscle_contraction.mp4"
             }
           ]
         }
@@ -63,15 +63,15 @@
           "lessons": [
             {
               "id": "physiology-201-l1",
-              "title": "الدورة القلبية",
-              "durationSec": 101,
-              "video": "assets/videos/lesson_6.mp4"
+              "title": "حجرات القلب والدورة القلبية",
+              "durationSec": 100,
+              "video": "assets/videos/cardiac_cycle.mp4"
             },
             {
               "id": "physiology-201-l2",
-              "title": "تنظيم ضغط الدم",
-              "durationSec": 67,
-              "video": "assets/videos/lesson_1.mp4"
+              "title": "مسار الدم وصمامات القلب",
+              "durationSec": 100,
+              "video": "assets/videos/cardiac_cycle.mp4"
             }
           ]
         },
@@ -81,21 +81,21 @@
           "lessons": [
             {
               "id": "physiology-201-l3",
-              "title": "ميكانيكا التنفس",
-              "durationSec": 71,
-              "video": "assets/videos/lesson_2.mp4"
+              "title": "عضلات التنفس والحجاب الحاجز",
+              "durationSec": 90,
+              "video": "assets/videos/respiration.mp4"
             },
             {
               "id": "physiology-201-l4",
-              "title": "تبادل الغازات في الحويصلات",
-              "durationSec": 76,
-              "video": "assets/videos/lesson_3.mp4"
+              "title": "ميكانيكا الشهيق والزفير",
+              "durationSec": 90,
+              "video": "assets/videos/respiration.mp4"
             },
             {
               "id": "physiology-201-l5",
-              "title": "تنظيم معدل التنفس",
-              "durationSec": 82,
-              "video": "assets/videos/lesson_4.mp4"
+              "title": "حركة القفص الصدري أثناء التنفس",
+              "durationSec": 90,
+              "video": "assets/videos/respiration.mp4"
             }
           ]
         }

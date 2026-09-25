@@ -10,7 +10,7 @@
 
 - [x] Initialize Flutter project, assets structure (`assets/data/`, `assets/videos/`, `assets/images/`).
 - [x] Create `courses.json` with 2 medical courses, 2 sections each, and 2-3 lessons per section.
-- [x] Include 2 short local `.mp4` video assets (<10 MB each). — 6 bundled, 67–101 s and 2.6–3.8 MB each (NASA Image and Video Library, public domain). Durations, the 50 s floor and the size cap are all test-enforced.
+- [x] Include 2 short local `.mp4` video assets (<10 MB each). — 6 bundled, 90–100 s and 2.4–3.6 MB each, cut from anatomy/physiology teaching films (Prelinger PD + Wellcome CC BY-NC) so each clip teaches its lesson's actual topic. Durations, the 50 s floor and the size cap are all test-enforced.
 - [x] Setup dependencies: `flutter_riverpod` + `riverpod_annotation`, `go_router`, `hive_ce` / `hive_ce_flutter` (maintained Hive fork), `video_player`, `responsive_framework` (`^1.5.1`), `easy_localization`.
 - [x] Build Data Models (`CourseModel`, `SectionModel`, `LessonModel`, `LessonProgressModel`) with hand-written JSON parsing (see README for why not `json_serializable`).
 

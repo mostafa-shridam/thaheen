@@ -43,8 +43,8 @@ void main() {
 
   // From the real catalogue: the first two lessons of the anatomy course.
   const courseId = 'anatomy-101';
-  const firstLesson = 'تركيب العظام ووظائفها';
-  const secondLesson = 'المفاصل والغضاريف';
+  const firstLesson = 'وظائف الهيكل العظمي';
+  const secondLesson = 'تركيب العظم والسمحاق';
 
   List<Override> overridesWith(ProgressByLesson progress) => <Override>[
         courseAssetDataSourceProvider.overrideWithValue(
