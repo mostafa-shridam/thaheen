@@ -123,7 +123,7 @@ class CodegenLoader extends AssetLoader{
 };
 static const Map<String,dynamic> _ar = {
   "app": {
-    "name": "ذاهين",
+    "name": "ذهين",
     "tagline": "تعلّم بلا إنترنت"
   },
   "common": {

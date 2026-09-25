@@ -1,4 +1,4 @@
-# ذاهين — Mini Offline LMS
+# ذهين — Mini Offline LMS
 
 An Arabic-first learning app for health-sciences students. It runs **100% offline**: the courses,
 the videos and the student's progress all live on the device. No backend, no API calls.
