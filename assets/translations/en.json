@@ -1,0 +1,107 @@
+{
+  "app": {
+    "name": "Thaheen",
+    "tagline": "Learn offline"
+  },
+  "common": {
+    "retry": "Retry",
+    "cancel": "Cancel",
+    "close": "Close",
+    "ok": "OK",
+    "back": "Back",
+    "minuteShort": "m",
+    "secondShort": "s"
+  },
+  "courses": {
+    "title": "My courses",
+    "lessonCount": {
+      "zero": "No lessons",
+      "one": "1 lesson",
+      "other": "{} lessons"
+    },
+    "progressPercent": "{percent}% complete",
+    "notStartedYet": "Not started yet",
+    "completedCourse": "Course completed",
+    "searchHint": "Search a course or instructor",
+    "searchNoResults": "No results match your search",
+    "searchNoResultsHint": "Try another word or clear the search",
+    "empty": "No courses available right now",
+    "emptyHint": "Your courses will appear here once added"
+  },
+  "continueWatching": {
+    "title": "Continue watching",
+    "subtitle": "Pick up where you left off",
+    "resumeAt": "Stopped at {time}",
+    "action": "Continue"
+  },
+  "courseDetails": {
+    "instructorLabel": "Instructor",
+    "contentTitle": "Course content",
+    "sectionCount": {
+      "one": "1 section",
+      "other": "{} sections"
+    },
+    "emptySection": "No lessons in this section yet",
+    "emptyCourse": "No lessons in this course yet",
+    "emptyCourseHint": "Lessons will be added soon",
+    "notFound": "We could not find this course",
+    "startCourse": "Start course",
+    "continueCourse": "Continue course",
+    "reviewCourse": "Review course"
+  },
+  "lesson": {
+    "status": {
+      "locked": "Locked",
+      "notStarted": "Not started",
+      "inProgress": "In progress",
+      "completed": "Completed"
+    },
+    "lockedTitle": "This lesson is locked",
+    "lockedMessage": "Finish “{title}” first to unlock this lesson",
+    "lockedMessageGeneric": "Finish the previous lesson first to unlock this one",
+    "next": "Next lesson",
+    "nextLocked": "Watch 90% of this lesson to unlock the next one",
+    "isLastLesson": "This is the last lesson in the course",
+    "courseFinished": "Well done! You finished every lesson",
+    "completedToast": "Lesson completed ✅",
+    "durationLabel": "Duration"
+  },
+  "player": {
+    "play": "Play",
+    "pause": "Pause",
+    "replay": "Replay",
+    "rewind": "Rewind 10 seconds",
+    "forward": "Forward 10 seconds",
+    "speed": "Speed",
+    "speedLabel": "Playback speed",
+    "speedValue": "{value}×",
+    "enterFullscreen": "Fullscreen",
+    "exitFullscreen": "Exit fullscreen",
+    "resumedFrom": "Resumed from {time}",
+    "loading": "Preparing the lesson…",
+    "seekBarLabel": "Progress bar"
+  },
+  "settings": {
+    "title": "Settings",
+    "language": "Language",
+    "languageArabic": "العربية",
+    "languageEnglish": "English",
+    "theme": "Appearance",
+    "themeLight": "Light",
+    "themeDark": "Dark",
+    "themeSystem": "System"
+  },
+  "errors": {
+    "title": "Something went wrong",
+    "catalogueMissing": "Course content could not be found",
+    "catalogueMissingHint": "The content file seems to be missing from the app",
+    "catalogueCorrupt": "Course content is invalid",
+    "catalogueCorruptHint": "The content file could not be read correctly",
+    "storageUnavailable": "Your progress could not be saved",
+    "storageUnavailableHint": "Watch positions may not survive closing the app",
+    "videoUnavailable": "This lesson could not be played",
+    "videoUnavailableHint": "The video file is missing or corrupt",
+    "unexpected": "An unexpected error occurred",
+    "unexpectedHint": "Please try again"
+  }
+}

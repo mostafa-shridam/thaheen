@@ -1,0 +1,111 @@
+{
+  "app": {
+    "name": "ذهين",
+    "tagline": "تعلّم بلا إنترنت"
+  },
+  "common": {
+    "retry": "إعادة المحاولة",
+    "cancel": "إلغاء",
+    "close": "إغلاق",
+    "ok": "حسناً",
+    "back": "رجوع",
+    "minuteShort": "د",
+    "secondShort": "ث"
+  },
+  "courses": {
+    "title": "دوراتي",
+    "lessonCount": {
+      "zero": "لا توجد دروس",
+      "one": "درس واحد",
+      "two": "درسان",
+      "few": "{} دروس",
+      "many": "{} درساً",
+      "other": "{} درس"
+    },
+    "progressPercent": "{percent}% مكتمل",
+    "notStartedYet": "لم تبدأ بعد",
+    "completedCourse": "أكملت الدورة",
+    "searchHint": "ابحث عن دورة أو مدرّب",
+    "searchNoResults": "لا توجد نتائج مطابقة لبحثك",
+    "searchNoResultsHint": "جرّب كلمة أخرى أو امسح البحث",
+    "empty": "لا توجد دورات متاحة حالياً",
+    "emptyHint": "ستظهر دوراتك هنا فور إضافتها"
+  },
+  "continueWatching": {
+    "title": "تابع المشاهدة",
+    "subtitle": "أكمل من حيث توقفت",
+    "resumeAt": "توقفت عند {time}",
+    "action": "متابعة"
+  },
+  "courseDetails": {
+    "instructorLabel": "المدرّب",
+    "contentTitle": "محتوى الدورة",
+    "sectionCount": {
+      "one": "قسم واحد",
+      "two": "قسمان",
+      "other": "{} أقسام"
+    },
+    "emptySection": "لا توجد دروس في هذا القسم بعد",
+    "emptyCourse": "لا توجد دروس في هذه الدورة بعد",
+    "emptyCourseHint": "سيتم إضافة الدروس قريباً",
+    "notFound": "لم نعثر على هذه الدورة",
+    "startCourse": "ابدأ الدورة",
+    "continueCourse": "تابع الدورة",
+    "reviewCourse": "مراجعة الدورة"
+  },
+  "lesson": {
+    "status": {
+      "locked": "مقفل",
+      "notStarted": "لم يبدأ",
+      "inProgress": "قيد المشاهدة",
+      "completed": "مكتمل"
+    },
+    "lockedTitle": "هذا الدرس مقفل",
+    "lockedMessage": "أكمل درس «{title}» أولاً لفتح هذا الدرس",
+    "lockedMessageGeneric": "أكمل الدرس السابق أولاً لفتح هذا الدرس",
+    "next": "الدرس التالي",
+    "nextLocked": "أكمل ٩٠٪ من هذا الدرس لفتح الدرس التالي",
+    "isLastLesson": "هذا آخر درس في الدورة",
+    "courseFinished": "أحسنت! أكملت جميع دروس الدورة",
+    "completedToast": "تم إكمال الدرس ✅",
+    "durationLabel": "المدة"
+  },
+  "player": {
+    "play": "تشغيل",
+    "pause": "إيقاف مؤقت",
+    "replay": "إعادة التشغيل",
+    "rewind": "إرجاع ١٠ ثوانٍ",
+    "forward": "تقديم ١٠ ثوانٍ",
+    "speed": "السرعة",
+    "speedLabel": "سرعة التشغيل",
+    "speedValue": "{value}×",
+    "enterFullscreen": "ملء الشاشة",
+    "exitFullscreen": "إنهاء ملء الشاشة",
+    "resumedFrom": "تم الاستئناف من {time}",
+    "loading": "جارٍ تحضير الدرس…",
+    "seekBarLabel": "شريط التقدم"
+  },
+  "settings": {
+    "title": "الإعدادات",
+    "language": "اللغة",
+    "languageArabic": "العربية",
+    "languageEnglish": "English",
+    "theme": "المظهر",
+    "themeLight": "فاتح",
+    "themeDark": "داكن",
+    "themeSystem": "حسب النظام"
+  },
+  "errors": {
+    "title": "حدث خطأ",
+    "catalogueMissing": "تعذّر العثور على محتوى الدورات",
+    "catalogueMissingHint": "يبدو أن ملف المحتوى غير مرفق مع التطبيق",
+    "catalogueCorrupt": "محتوى الدورات غير صالح",
+    "catalogueCorruptHint": "تعذّرت قراءة ملف المحتوى بشكل صحيح",
+    "storageUnavailable": "تعذّر حفظ تقدّمك",
+    "storageUnavailableHint": "قد لا يتم الاحتفاظ بموضع المشاهدة بعد إغلاق التطبيق",
+    "videoUnavailable": "تعذّر تشغيل هذا الدرس",
+    "videoUnavailableHint": "ملف الفيديو مفقود أو تالف",
+    "unexpected": "حدث خطأ غير متوقع",
+    "unexpectedHint": "يرجى المحاولة مرة أخرى"
+  }
+}

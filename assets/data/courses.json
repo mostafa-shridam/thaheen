@@ -1,0 +1,105 @@
+{
+  "schemaVersion": 1,
+  "courses": [
+    {
+      "id": "anatomy-101",
+      "title": "مقدمة في التشريح",
+      "instructor": "د. سارة الحربي",
+      "thumbnail": "assets/images/anatomy.png",
+      "sections": [
+        {
+          "id": "anatomy-101-s1",
+          "title": "الجهاز الهيكلي",
+          "lessons": [
+            {
+              "id": "anatomy-101-l1",
+              "title": "تركيب العظام ووظائفها",
+              "durationSec": 67,
+              "video": "assets/videos/lesson_1.mp4"
+            },
+            {
+              "id": "anatomy-101-l2",
+              "title": "المفاصل والغضاريف",
+              "durationSec": 71,
+              "video": "assets/videos/lesson_2.mp4"
+            },
+            {
+              "id": "anatomy-101-l3",
+              "title": "العمود الفقري",
+              "durationSec": 76,
+              "video": "assets/videos/lesson_3.mp4"
+            }
+          ]
+        },
+        {
+          "id": "anatomy-101-s2",
+          "title": "الجهاز العضلي",
+          "lessons": [
+            {
+              "id": "anatomy-101-l4",
+              "title": "أنواع العضلات",
+              "durationSec": 82,
+              "video": "assets/videos/lesson_4.mp4"
+            },
+            {
+              "id": "anatomy-101-l5",
+              "title": "آلية الانقباض العضلي",
+              "durationSec": 96,
+              "video": "assets/videos/lesson_5.mp4"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "physiology-201",
+      "title": "أساسيات علم وظائف الأعضاء",
+      "instructor": "د. خالد العتيبي",
+      "thumbnail": "assets/images/physiology.png",
+      "sections": [
+        {
+          "id": "physiology-201-s1",
+          "title": "الجهاز الدوري",
+          "lessons": [
+            {
+              "id": "physiology-201-l1",
+              "title": "الدورة القلبية",
+              "durationSec": 101,
+              "video": "assets/videos/lesson_6.mp4"
+            },
+            {
+              "id": "physiology-201-l2",
+              "title": "تنظيم ضغط الدم",
+              "durationSec": 67,
+              "video": "assets/videos/lesson_1.mp4"
+            }
+          ]
+        },
+        {
+          "id": "physiology-201-s2",
+          "title": "الجهاز التنفسي",
+          "lessons": [
+            {
+              "id": "physiology-201-l3",
+              "title": "ميكانيكا التنفس",
+              "durationSec": 71,
+              "video": "assets/videos/lesson_2.mp4"
+            },
+            {
+              "id": "physiology-201-l4",
+              "title": "تبادل الغازات في الحويصلات",
+              "durationSec": 76,
+              "video": "assets/videos/lesson_3.mp4"
+            },
+            {
+              "id": "physiology-201-l5",
+              "title": "تنظيم معدل التنفس",
+              "durationSec": 82,
+              "video": "assets/videos/lesson_4.mp4"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
